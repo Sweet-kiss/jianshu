@@ -1,17 +1,9 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import { CSSTransition } from 'react-transition-group';
 import { HeaderWrapper, Logo, Nav, NavItem, NavSearch, Addition, Button, SearchWrapper } from './style.js';
 
 class Header extends Component {
-
-   constructor (props) {
-   	  super(props);
-   	  this.state = {
-   	  	focused: false
-   	  }
-   	  this.handleInputFocus = this.handleInputFocus.bind(this);
-   	  this.handleInputBlur = this.handleInputBlur.bind(this);
-   }
 
 	render() {
 		return (
@@ -26,17 +18,17 @@ class Header extends Component {
 			       </NavItem>
 			       <SearchWrapper>
 			         <CSSTransition
-			            in={this.state.focused}
+			            in={this.props.focused}
 			            setTimeout={200}
 			            classNames="slide"
 			         >
 				       <NavSearch
-				         className={this.state.focused?'focused':''}
+				         className={this.props.focused?'focused':''}
 				         onFocus = {this.handleInputFocus}
 				         onBlur = {this.handleInputBlur}
 				       ></NavSearch>
 				      </CSSTransition>
-				         <i className={this.state.focused?'focused iconfont icon-fangdajing':'iconfont icon-fangdajing'}>&#xe662;</i>
+				         <i className={this.props.focused?'focused iconfont icon-fangdajing':'iconfont icon-fangdajing'}>&#xe662;</i>
 			       </SearchWrapper>
 			    </Nav>
 			    <Addition>
@@ -46,16 +38,18 @@ class Header extends Component {
 			</HeaderWrapper>
 		)
 	}
-	handleInputFocus () {
-		this.setState({
-			focused: true
-		})
-	}
-	handleInputBlur () {
-		this.setState({
-			focused: false
-		})		
-	}
 }
 
-export default Header;
+const mapStateToPrps = (state) => {
+  return {
+    focused: state.focused
+  }
+}
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+
+  }
+}
+
+export default connect(mapStateToPrps, mapDispatchToProps)(Header);
