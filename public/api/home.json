@@ -1,0 +1,59 @@
+{
+	"success": true,
+	"data": {
+		"topicList": [
+    {
+      "id": 1,
+      "title": "社会热点",
+      "imgUrl": "//upload.jianshu.io/admin_banners/web_images/4587/37a0abd67a60ad056442c351f94bc781eb36c704.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
+    },
+    {
+      "id": 2,
+      "title": "手绘",
+      "imgUrl": "//upload.jianshu.io/users/upload_avatars/2998364/9f8351c3734b.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/96/h/96/format/webp"
+    }    
+  ],
+	"articleList": [
+    {
+      "id": 1,
+      "title": "红薯的新做法,不蒸不煮,简单易学还好吃!",
+      "desc": "味道鲜美的红薯一直受到人们的喜爱，红薯低热量低脂肪的特点很适合减肥人群的食用。虽然蛋白质含量不好，但理想的氨基酸却能提高机体的免疫力。",
+      "imgUrl": "//upload-images.jianshu.io/upload_images/13266199-1f02eb7e503adbd9.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"
+    },
+    {
+      "id": 2,
+      "title": "超简单的高级菜，只花你10分钟！",
+      "desc": "愿你眼里长着太阳， 笑里全是坦坦荡荡。 今日份的咸香， 是否是你喜欢的光芒？ ∞ 每年这个时候，属于黄澄澄的南瓜，甘甜温润的口感和气爽闲适的秋天...",
+      "imgUrl": "//upload-images.jianshu.io/upload_images/14078486-fbeabf5304ee9500?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"
+    },
+    {
+      "id": 3,
+      "title": "年轻人，别创业了",
+      "desc": "前几年，创业是一个很时髦的词语，到处都在谈创业；街边的咖啡馆，坐满了谈创业计划，准备融资的人。 有嫌工资低辞职创业的，有学历低找不到好工作干脆去...",
+      "imgUrl": "//upload-images.jianshu.io/upload_images/9661733-28649273343a17d9.png?imageMogr2/auto-orient/strip|imageView2/1/w/300/h/240"
+    }
+  ],
+  "recommendList": [
+    {
+      "id": 1,
+      "imgUrl":"//cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png"
+    },
+    {
+      "id": 2,
+      "imgUrl":"//cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"
+    },
+    {
+      "id": 3,
+      "imgUrl": "//cdn2.jianshu.io/assets/web/banner-s-7-1a0222c91694a1f38e610be4bf9669be.png"
+    },
+    {
+      "id": 4,
+      "imgUrl": "//cdn2.jianshu.io/assets/web/banner-s-5-4ba25cf5041931a0ed2062828b4064cb.png"
+    },
+    {
+      "id": 5,
+      "imgUrl": "//cdn2.jianshu.io/assets/web/banner-s-6-c4d6335bfd688f2ca1115b42b04c28a7.png"
+    }
+  ]
+	}
+}
